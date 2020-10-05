@@ -1,0 +1,37 @@
+{
+  "name": "github-pages-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
+    "test": "react-scripts test --verbose",
+    "eject": "react-scripts eject"
+  },
+  "repository": "https://github.com/anaclumos/github-pages-test.git",
+  "author": "Sunghyun Cho <mail@chosunghyun.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.50",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
